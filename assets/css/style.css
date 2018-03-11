@@ -1,0 +1,219 @@
+/* General */
+body {
+	/*overflow: hidden;*/
+	background-color: #f3f3f3 !important;
+}
+
+.form-control {
+	border: none;
+}
+
+/* Sing up / Sign in */
+.signup {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.signup .form-control {
+
+	background-color: #f3f3f3 !important;
+}
+
+.signup .form-msg {
+	margin-bottom: 40px;
+}
+
+.input-phchat {
+	width: 40%;
+	border: none;
+	border: 1px solid #c3c3c3;
+	padding: 10px;
+}
+
+.btn-phchat {
+	border: none;
+	border-radius: 0;
+	border: 1px solid #c3c3c3;
+	background-color: transparent;
+	color: #3e3e3e;
+	width: 30%;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.already-have-account {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.error-msg {
+	text-align: center;
+	font-weight: bold;
+	background: #f55;
+	width: 40%;
+	margin: 40px auto 0 auto;
+	padding: 10px;
+	color: #fff;
+
+}
+
+/* Header */
+.navbar-brand,
+.navbar-brand:hover,
+.navbar-brand:visited,
+.navbar-brand:active {
+	color: #fff !important;
+}
+
+.navbar .account-box {
+	position: relative;
+}
+
+.navbar .account-box .profile-pic-upload {
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+	opacity: 0;
+}
+
+/* Conversation Page */
+.conversations {}
+
+.conversations .col-md-4 {
+	overflow-y: auto;
+}
+
+.conversations .col-md-4 ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.conversations .col-md-4 ul > a {
+	color: #000;
+	text-decoration: none;
+}
+
+.conversations .col-md-4 ul .user-who-wrote-you {
+	position: relative;
+	padding: 10px;
+}
+
+.conversations .col-md-4 ul .user-list-item {
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	left: 0;
+	top: 0;
+	z-index: 10;
+    opacity: 0;
+}
+
+.conversations .col-md-4 ul a .user-who-wrote-you {
+	padding: 10px;
+}
+
+.conversations .col-md-4 ul a:not(:first-child) .user-who-wrote-you {
+	border-top: 1px solid #c3c3c3;
+}
+
+.conversations .col-md-4 ul .user-who-wrote-you:hover,
+.active {
+	background-color: #292b2c;
+	color: #fff;
+}
+
+.conversations .col-md-4 ul .user-who-wrote-you img,
+.rounded-img {
+	width: 50px;
+	border-radius: 40px;
+}
+
+.conversations .col-md-4 ul .user-who-wrote-you .messager-name {
+	margin-left: 10px;
+	display: inline-block;
+}
+
+.conversations .search-user .ph-searchbar {
+	border: 1px solid #c3c3c3;
+}
+
+.conversations .search-user .list-results {
+	width: 80%;
+	margin-top: 10px;
+}
+
+.conversations .search-user .list-results a:hover {
+	background-color: #007bff;
+	color: #fff;
+}
+
+.conversations .messages {
+	position: relative;
+	height: 100vh;
+}
+
+.conversations .messages .messages-show {
+	height: 77%;
+	overflow-y: auto;
+}
+
+.conversations .messages .messages-show .bubble-message {
+	background-color: #292b2c;
+	margin: 10px;
+	width: 60%;
+	padding: 10px;
+	color: #fff;
+	border-radius: 10px;
+}
+
+.btn-phchat-logout {
+	border: none;
+	background-color: transparent;
+	border: 1px solid #c3c3c3;
+	color: #fff;
+}
+
+.conversations .messages .messages-show .bubble-message-me {
+	float: right;
+	background-color: #9eff98;
+	color: #fff;
+}
+
+.conversations .messages .messages-show .bubble-message-you {
+	float: left;
+	background-color: #75d5e3;
+	color: #fff;
+}
+
+.conversations .messages .messages-show .write-your-message {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #fff;
+	padding: 10px;
+	left: 0;
+}
+
+.conversations .messages .write-your-message {
+	height: 7%;
+	text-align: center;
+}
+
+.conversations .messages .write-your-message input {
+	width: 100%;
+	height: 100%;
+}
+
+@media (max-width: 992px) {
+	.header-top .form-inline {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
