@@ -8,7 +8,7 @@ Minimal real-time chat system built with pure PHP, Bootstrap 4 and AJAX.
 
 To get started with **PhChat**, you just need to create a database and edit the _DB.php_ file according to your setup.
 
-To make things easier, you'll find a _xyz.sql_ file in this repository, just run it and you're ready to go!
+To make things easier, you'll find a _config.sql_ file in this repository, just run it and you're ready to go!
 
 
 ## Contribute
